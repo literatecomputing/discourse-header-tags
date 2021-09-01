@@ -1,0 +1,14 @@
+{{#unless site.mobileView}}
+  {{#if isDiscoveryList}}
+    {{#unless hideheader}}
+      <div class="discourse-header-tags">
+        <div class="header-tags-list">
+          <h3 class="tags-list-title">{{theme-i18n "tag_header.title"}}</h3>
+            {{#each tagList as |t|}}
+              {{discourse-tag t.id style="box"}}
+            {{/each}}
+          </div>
+        </div>
+    {{/unless}}
+  {{/if}}
+{{/unless}}

@@ -1,0 +1,19 @@
+{
+  "name": "header-tags",
+  "about_url": null,
+  "license_url": null,
+  "assets": {},
+  "color_schemes": {},
+  "component": true,
+  "assets": {
+    "economics-tag-icon": "assets/economics.svg",
+    "finance-tag-icon": "assets/finance.svg",
+    "environmental-sciences-tag-icon": "assets/environmental-sciences.svg",
+    "geospatial-tag-icon": "assets/geospatial.svg",
+    "public-health-tag-icon": "assets/public-health.svg",
+    "core-places-tag-icon": "assets/core-places.svg",
+    "data-science-tag-icon": "assets/data-science.svg",
+    "geometry-tag-icon": "assets/geometry.svg",
+    "patterns-tag-icon": "assets/patterns.svg"
+  }
+}
